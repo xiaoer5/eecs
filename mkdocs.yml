@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: EECS Notes
 nav:
   - Home: index.md
   - Tools:
@@ -23,6 +23,8 @@ nav:
   - Wlan:
     - IEEE 802.11b:
       - Contents: wlan/ieee80211b/contents.md
+  - Books:
+    - Linux: books/linux.md
 
 theme:
   name: material
