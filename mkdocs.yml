@@ -2,6 +2,7 @@ site_name: EECS Notes
 nav:
   - Home: index.md
   - Tools:
+    - Books Download: tools/books_dl.md
     - Mkdocs Usage: tools/mkdocs.md
     - MkSlides Usage: tools/mkslides.md
     - Hexo install in MSYS2: tools/msys2_hexo_install.md
@@ -26,6 +27,9 @@ nav:
       - Contents: wlan/ieee80211b/contents.md
   - Books:
     - Linux: books/linux.md
+  - Software Dev:
+    - Makefile:
+      - MakeFile Materials: sw_dev/01_makefile/makefile_materials.md
 
 theme:
   name: material

@@ -3,7 +3,4 @@
 
 - [Linux Wireless Networking: a short walk](https://www.linux.com/training-tutorials/linux-wireless-networking-short-walk/)
 
-
-- [ZLibrary入口](https://zlibrary.zhike.in/)
-
 - [wireless: cl8k driver for Celeno IEEE 802.11ax devices](https://lwn.net/Articles/896124/)
