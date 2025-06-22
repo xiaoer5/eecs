@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../mkslides/">
+        <link rel="prev" href="../..">
       
       
-        <link rel="next" href="../../notes/rf_basics/">
+        <link rel="next" href="../mkdocs/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Hexo install in MSYS2 - EECS Notes</title>
+        <title>Books Download - EECS Notes</title>
       
     
     
@@ -63,11 +63,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#1-pacman" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -100,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hexo install in MSYS2
+              Books Download
             
           </span>
         </div>
@@ -255,10 +250,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../books_dl/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -269,6 +271,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -324,30 +327,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Hexo install in MSYS2
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../msys2_hexo_install/" class="md-nav__link">
         
   
   
@@ -358,60 +341,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-pacman" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 更新 pacman 包列表
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-nodejs" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 安装Node.js
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-nodenpm" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 验证node和npm安装
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-hexo" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 安装hexo
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1219,50 +1148,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-pacman" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 更新 pacman 包列表
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-nodejs" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 安装Node.js
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-nodenpm" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 验证node和npm安装
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-hexo" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 安装hexo
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1277,67 +1162,11 @@
 
 
 
-  <h1>Hexo install in MSYS2</h1>
+  <h1>Books Download</h1>
 
-<h2 id="1-pacman">1. 更新 pacman 包列表</h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>pacman<span class="w"> </span>-Syu
-</code></pre></div></td></tr></table></div>
-<h2 id="2-nodejs">2. 安装Node.js</h2>
-<p>通过如下命令查看pacmac包中包含的nodejs的安装包</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>pacman -Sl | grep nodejs
-</code></pre></div></td></tr></table></div>
-<p>输出如下</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code>$ pacman -Sl | grep nodejs
-clangarm64 mingw-w64-clang-aarch64-nodejs 23.5.0-3
-clangarm64 mingw-w64-clang-aarch64-nodejs-neovim 5.3.0-1
-clangarm64 mingw-w64-clang-aarch64-nodejs-webpack-cli 6.0.1-1
-clangarm64 mingw-w64-clang-aarch64-python-hatch-nodejs-version 0.3.2-2
-mingw32 mingw-w64-i686-python-hatch-nodejs-version 0.3.2-2
-mingw64 mingw-w64-x86_64-nodejs 23.5.0-3 [installed]
-mingw64 mingw-w64-x86_64-nodejs-webpack-cli 6.0.1-1
-mingw64 mingw-w64-x86_64-python-hatch-nodejs-version 0.3.2-2
-ucrt64 mingw-w64-ucrt-x86_64-nodejs 23.5.0-3
-ucrt64 mingw-w64-ucrt-x86_64-nodejs-neovim 5.3.0-1
-ucrt64 mingw-w64-ucrt-x86_64-nodejs-webpack-cli 6.0.1-1
-ucrt64 mingw-w64-ucrt-x86_64-python-hatch-nodejs-version 0.3.2-2
-clang64 mingw-w64-clang-x86_64-nodejs 23.5.0-3
-clang64 mingw-w64-clang-x86_64-nodejs-neovim 5.3.0-1
-clang64 mingw-w64-clang-x86_64-nodejs-webpack-cli 6.0.1-1
-clang64 mingw-w64-clang-x86_64-python-hatch-nodejs-version 0.3.2-2
-</code></pre></div></td></tr></table></div>
-<p>通过如下命令安装 <code>nodejs</code></p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>pacman<span class="w"> </span>-S<span class="w"> </span>mingw-w64-x86_64-nodejs
-</code></pre></div></td></tr></table></div>
-<h2 id="3-nodenpm">3. 验证node和npm安装</h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code>$<span class="w"> </span>node<span class="w"> </span>-v
-v23.5.0
-
-$<span class="w"> </span>npm<span class="w"> </span>-v
-<span class="m">10</span>.9.2
-</code></pre></div></td></tr></table></div>
-<h2 id="4-hexo">4. 安装hexo</h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>hexo-cli
-</code></pre></div></td></tr></table></div>
+<ul>
+<li><a href="https://zlibrary.zhike.in/">ZLibrary入口</a></li>
+</ul>
 
 
 
