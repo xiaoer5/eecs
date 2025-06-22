@@ -4,6 +4,7 @@ nav:
   - Tools:
     - Mkdocs Usage: tools/mkdocs.md
     - MkSlides Usage: tools/mkslides.md
+    - Hexo install in MSYS2: tools/msys2_hexo_install.md
   - Notes:
     - RF Basics: notes/rf_basics.md
     - Rust Basics: notes/rust_basics.md
