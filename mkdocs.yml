@@ -1,0 +1,47 @@
+site_name: EECS Notes
+nav:
+  - Home: index.md
+  - Tools:
+    - Mkdocs Usage: tools/mkdocs.md
+    - MkSlides Usage: tools/mkslides.md
+  - Notes:
+    - RF Basics: notes/rf_basics.md
+    - Rust Basics: notes/rust_basics.md
+    - CPU Basics: notes/cpu_basics.md
+    - OS Dev: notes/os_dev.md
+    - AI Basics: notes/ai_basics.md
+    - Wifi Basics: notes/wifi_basics.md
+    - Wireless Comm: notes/wireless_comm.md
+    - Others: notes/others.md
+  - Linux:
+    - Kdump:
+      - Kdump Usage: linux/kdump/kdump_usage.md
+    - Netlink:
+      - Netlink Demo: linux/netlink/netlink_demo.md
+    - TCP&IP Prot:
+      - TCP Demo: linux/tcp_ip/tcp_comm_demo.md
+  - Wlan:
+    - IEEE 802.11b:
+      - Contents: wlan/ieee80211b/contents.md
+  - Books:
+    - Linux: books/linux.md
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+# 引入 Mermaid 的 JavaScript 库
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
+
+# 可选：自定义 Mermaid 主题或配置
+extra_css:
+  - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.css
